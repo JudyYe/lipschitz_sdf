@@ -201,7 +201,6 @@ class Decoder(nn.Module):
 
         self.dropout_prob = dropout_prob
         self.dropout = dropout
-        self.th = nn.Tanh()
 
     # input: N x (L+3)
     def forward(self, input):
